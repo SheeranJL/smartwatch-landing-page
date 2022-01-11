@@ -1,0 +1,13 @@
+.amazing-features-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 20% 2% 20%;
+
+  .amazing-features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  position: relative;
+
+  .boxed-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+  }
+
+  .watch-section-background {
+    background-image: url('http://www.webtechnologybd.com/html/Voltamic/assets/img/wave-bottom-1.svg');
+    z-index: 1;
+    background-size: cover;
+    background-color: rgba(244, 245, 250, 1);
+
+    .watch-product-overview-container {
+      background-color: grey;
+      background-size: cover;
+      z-index: 1;
+      background: linear-gradient(0deg, #f4f5fa, transparent);
+    }
+  }
+
+  .video-info-background-container {
+    background-image: url('http://www.webtechnologybd.com/html/Voltamic/assets/img/banner-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+}

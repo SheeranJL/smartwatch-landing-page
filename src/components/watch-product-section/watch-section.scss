@@ -1,0 +1,30 @@
+.watch-section-container {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+
+  .left-side-info {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    .watch-info-list {
+      text-align: left;
+      list-style-position: outside;
+
+      margin-right: auto;
+    }
+
+  }
+
+  .right-side-graphic {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+}
