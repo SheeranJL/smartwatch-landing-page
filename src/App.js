@@ -8,6 +8,7 @@ import WatchSection from './components/watch-product-section/watch-section.js';
 import AmazingFeatures from './components/amazing-features/amazing-features.js';
 import VideoInfo from './components/video-info/video-info.js';
 import ProductFeatures from './components/product-features/product-features.js';
+import NewCollection from './components/new-collection/new-collection.js';
 
 const App = () => {
 
@@ -50,7 +51,8 @@ const App = () => {
       </div>
 
       <ProductFeatures />
-      
+
+      <NewCollection />
     </div>
   )
 }
